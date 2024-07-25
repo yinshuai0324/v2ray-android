@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private val socks5Config = Socks5Config().apply {
         host = "59.63.213.95"
         port = 21080
-        userName = "wanglin.sun"
-        password = "b0j88fba"
+        userName = "wadada"
+        password = "adadadad"
         proxyApp = arrayListOf("com.tencent.mobileqq")
     }
 
