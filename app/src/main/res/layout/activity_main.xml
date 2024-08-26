@@ -9,6 +9,37 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="host" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="port"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名-可选" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码-可选" />
+
+    <EditText
+        android:id="@+id/proxyApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="需要代理的App包名，多个用逗号隔开" />
+
 
     <Button
         android:id="@+id/startBtn"
@@ -28,5 +59,5 @@
         android:id="@+id/uiBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ui配置" />
+        android:text="V2Ray原生UI配置" />
 </LinearLayout>
